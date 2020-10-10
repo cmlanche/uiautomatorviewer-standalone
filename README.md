@@ -16,11 +16,6 @@ java -XstartOnFirstThread -jar target/uiautomatorviewer-standalone-1.0-SNAPSHOT-
 3. 额外还包括其他依赖：
 ```xml
 <dependency>
-    <groupId>com.android.tools.ddms</groupId>
-    <artifactId>ddmlib</artifactId>
-    <version>25.3.0</version>
-</dependency>
-<dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.7</version>
