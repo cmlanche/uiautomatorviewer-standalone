@@ -4,8 +4,15 @@
 ### 打包
 mvn clean package
 
-### 执行
-java -XstartOnFirstThread -jar target/uiautomatorviewer-standalone-1.0-SNAPSHOT-all.jar
+### 启动
+mac下：
+```shell
+java -XstartOnFirstThread -jar uiautomatorviewer-standalone-1.0-SNAPSHOT-all.jar
+```
+windows下：
+```shell
+java -jar uiautomatorviewer-standalone-1.0-SNAPSHOT-all.jar
+```
 
 ### 源码来源
 源码来自[谷歌官方](https://android.googlesource.com/platform/tools/swt/+/refs/heads/android10-release/uiautomatorviewer/)
@@ -21,3 +28,6 @@ java -XstartOnFirstThread -jar target/uiautomatorviewer-standalone-1.0-SNAPSHOT-
     <version>2.7</version>
 </dependency>
 ```
+
+### 预览
+![UIAutomatorViewer](https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/3d1o1.png)
